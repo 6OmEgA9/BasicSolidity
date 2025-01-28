@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "celsius",
+						"type": "int256"
+					}
+				],
+				"name": "convert",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day02/d2p3.sol": "Tempera"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day02/d2p3.sol": {
+			"keccak256": "0x8c2a12bf11ff039b7b860bbaf61fcfadccc1ff252375bfc0ce2c80f60d50c084",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c595b90e81724d15489779e76b8d815352e4c79e6b522195c3332329df6374e5",
+				"dweb:/ipfs/QmUJNk9vYNLvUt1BcQNuoGHqZQXVCLEJKTkEwwRBYHUm5s"
+			]
+		}
+	},
+	"version": 1
+}
