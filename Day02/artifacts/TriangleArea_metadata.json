@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "radius",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateArea",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day02/d2p4.sol": "TriangleArea"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day02/d2p4.sol": {
+			"keccak256": "0x61c19c3fa2abbb9011ae91569b18366f50c9e9b351fbf9a48836edf4deba1443",
+			"license": "GPL-3",
+			"urls": [
+				"bzz-raw://6db6a58dda0c6bd98afec5f24c718729d181809469e53d04733a1be2854be601",
+				"dweb:/ipfs/QmYBWJrciGJXk3kzvaHemcQhvZBAnBxuXKQPrUW9nejgZ4"
+			]
+		}
+	},
+	"version": 1
+}

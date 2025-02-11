@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "calculateArea",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "findType",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "isValidTriangle",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p3.sol": "Triangle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p3.sol": {
+			"keccak256": "0xdae7e1d51fca47c82aeb3adafe3068a3efa7b2f3bd96f6538c17081161597759",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b4e0151adc3b81d61990ae681dd54bf13cd40c88c8f163fafa8a9a2e79fce315",
+				"dweb:/ipfs/Qmb2qC1GVjpW4mEihjm2V9zktyPJ9RQnjCRHFbdHSoXNbB"
+			]
+		}
+	},
+	"version": 1
+}

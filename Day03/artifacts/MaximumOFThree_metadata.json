@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "MaximumOFAll",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p2.sol": "MaximumOFThree"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p2.sol": {
+			"keccak256": "0x492d20f601dffae6a5fc762778cb6bb3be0db10f8970c7af66b01cb406e8dfe9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://406f0542ec4056704105e0e4fdfa7acb10da141f8e3304bb2dc95e379493c4dd",
+				"dweb:/ipfs/QmUSxPdqDpqu3kbPZtLePhggczGLnTPovSt1NwKeUSnwjR"
+			]
+		}
+	},
+	"version": 1
+}
