@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					}
+				],
+				"name": "transposeMatrix",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day05/Transpose.sol": "MatrixTranspose"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day05/Transpose.sol": {
+			"keccak256": "0x6831bac2582bcdd516b4028c731770e2e7c30996cd6624b154c21c9fcfb7a9d4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e12441dfdb118762d8da1c595a75e76f305b9608b31de049b5093a8435743a14",
+				"dweb:/ipfs/QmQdiXGgrWCFbLJ1qLsMbNv9XSXN4Q4KxjyGAkGAAqPvSf"
+			]
+		}
+	},
+	"version": 1
+}

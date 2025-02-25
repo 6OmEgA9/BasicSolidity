@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "arr",
+						"type": "int256[]"
+					}
+				],
+				"name": "reverseArray",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day05/Reverse.sol": "ArrayReversal"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day05/Reverse.sol": {
+			"keccak256": "0xc7d7723204a577562fefabf4a5d70c415e13405ad1fb46bc5b0f90d3299fddde",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d8ae97a3de9c38c5c29e7284b428e206f7bd9553817a0ca6205eb322e82784ca",
+				"dweb:/ipfs/QmXwoqgZBfxHAktu3krAcqhmafPTH8zccVzbGCRD4gqkTy"
+			]
+		}
+	},
+	"version": 1
+}

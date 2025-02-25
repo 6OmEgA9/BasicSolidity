@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "addMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "multiplyMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "subtractMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day05/d5p1.sol": "MatrixOperations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day05/d5p1.sol": {
+			"keccak256": "0x7ed8ac89be37c9ef25c6e6bd9c761ca42ace701a4cfb8cf8507f118ecd8c11a8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://845318aaf73f664f9ca9ac0f8d959b0c881988fa4441d6522654ac19b0bcc8f2",
+				"dweb:/ipfs/QmSdxD3P3q5RC6nEY9VwpJNE1jabCBxv5AUSuykcCC2NAf"
+			]
+		}
+	},
+	"version": 1
+}
