@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "findLargestElement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMatrix",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cols",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "matrix",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cols",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cols",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "setMatrix",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ClassTest II/CTq5a.sol": "MatrixOperations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ClassTest II/CTq5a.sol": {
+			"keccak256": "0x6991e7e3796d30da5e6e826c3a467f9ccaca15e0e7ee767236ba905e2afa8287",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abbcbf96c2afb506b01402ae7f834d262ae4ac73d86159a7f7a99820cfb71ee3",
+				"dweb:/ipfs/QmUg3nwwR2P3Fzvm4ACarASaTgpYAjqfKcpekLWwMkPSnu"
+			]
+		}
+	},
+	"version": 1
+}

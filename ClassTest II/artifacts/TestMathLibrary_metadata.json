@@ -1,0 +1,193 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "absResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResults",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_sqrt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_abs",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_square",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_max",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_min",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sqrtResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "squareResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_num2",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num3",
+						"type": "uint256"
+					}
+				],
+				"name": "testFunctions",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "testUsingDirective",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ClassTest II/CTq6.sol": "TestMathLibrary"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ClassTest II/CTq6.sol": {
+			"keccak256": "0x60fd246757eba1d6011434114deed1cd97336691ba14d5361fa7b99529fac972",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://300165df8df9550910ff68f68d0ca13d878cc13529024cd70a2dbd6ad3a634eb",
+				"dweb:/ipfs/QmYTYfv9YrQDj2CGXafwUMauNkpisGpdRePKciB7Dg2E9e"
+			]
+		},
+		"ClassTest II/Math.sol": {
+			"keccak256": "0x9f3e6ecc2a823bcbb0b5d354302cb9f51cb465ecd203fe12b4f41bce2861033d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://52a3b8f3c57c653330a41ab408080820eaad6fc3354dfa03485ed264068b5633",
+				"dweb:/ipfs/QmeiQG1LsKVziEyMyC7CLejwbmpjQPJf3cKdXrNHrvjs2F"
+			]
+		}
+	},
+	"version": 1
+}
